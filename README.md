@@ -1,6 +1,6 @@
 # Python Port Scanner
 
-## 🔎 Project Overview
+Project Overview
 
 This is my first cybersecurity portfolio project: a Python-based TCP port scanner built from scratch.
 
@@ -8,7 +8,7 @@ The purpose of this project is to improve my understanding of networking, TCP po
 
 The scanner allows the user to enter an IP address or hostname and choose a range of ports to scan. When an open port is detected, the program displays the port number together with information about common services where available.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python 3
 * Python `socket` module
@@ -16,7 +16,7 @@ The scanner allows the user to enter an IP address or hostname and choose a rang
 * macOS
 * Git and GitHub
 
-## ⚙️ Features
+## Features
 
 The scanner can:
 
@@ -31,7 +31,7 @@ The scanner can:
 * Display the date and time of the scan
 * Handle invalid input and connection errors
 
-## 🌐 Port Ranges
+## Port Ranges
 
 TCP/UDP port numbers range from **0 to 65535**.
 
@@ -43,7 +43,7 @@ For this project, I learned about the main port categories:
 
 The scanner accepts ports from **1 to 65535**.
 
-## 🔐 Examples of Common Ports
+Examples of Common Ports
 
 | Port | Service | Purpose                   |
 | ---- | ------- | ------------------------- |
@@ -58,7 +58,7 @@ The scanner accepts ports from **1 to 65535**.
 | 443  | HTTPS   | Secure web traffic        |
 | 3389 | RDP     | Windows Remote Desktop    |
 
-## ▶️ How to Run
+## How to Run
 
 Make sure Python 3 is installed.
 
@@ -68,7 +68,7 @@ Run:
 python3 port_scanner.py
 ```
 
-The program will ask for:
+## The program will ask for:
 
 1. An IP address or hostname
 2. A starting port
@@ -76,11 +76,11 @@ The program will ask for:
 
 The scanner will then test the selected TCP ports and report any open ports it finds.
 
-## 📸 Testing and Screenshots
+## Testing and Screenshots
 
 I tested the scanner in a controlled environment using devices and systems that I own or have permission to test.
 
-The testing process includes:
+## The testing process includes:
 
 1.Localhost scan (127.0.0.1) across ports 1–1024
 
@@ -90,7 +90,7 @@ The testing process includes:
 
 Screenshots of the tests are available in the `screenshots` folder.
 
-## 🧠 What I Learned
+## What I Learned
 
 Through this project I developed a better understanding of:
 
@@ -104,13 +104,13 @@ Through this project I developed a better understanding of:
 
 This project also helped me understand how port scanning can be used by security professionals to identify exposed network services.
 
-## ⚠️ Ethical Use
+## Ethical Use
 
 This project is for educational and cybersecurity learning purposes only.
 
 Port scanning should only be performed against systems and networks that you own or have explicit permission to test.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Future versions could include:
 
