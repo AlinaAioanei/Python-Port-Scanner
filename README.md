@@ -82,13 +82,13 @@ I tested the scanner in a controlled environment using devices and systems that 
 
 The testing process includes:
 
-1. Localhost scan (`127.0.0.1`)
-2. Common port scan
-3. Testing another authorised device on my local network
-4. Detecting an intentionally opened test port
-5. Testing larger port ranges
+1.Localhost scan (127.0.0.1) across ports 1–1024
 
-Screenshots of the tests will be added to the `screenshots` folder.
+2.Detection of an intentionally opened HTTP test server on port 8080
+
+3.Larger port-range scan across ports 1–10000
+
+Screenshots of the tests are available in the `screenshots` folder.
 
 ## 🧠 What I Learned
 
